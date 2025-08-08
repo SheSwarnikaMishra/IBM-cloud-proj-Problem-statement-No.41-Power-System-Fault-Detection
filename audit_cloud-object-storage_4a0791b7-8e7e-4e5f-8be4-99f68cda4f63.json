@@ -1,0 +1,2049 @@
+{
+  "report": {
+    "docType": "iam.identity-access-map",
+    "version": "1.0.0",
+    "createdById": "IBMid-69600111RP",
+    "date": "2025-08-08T12:38:45.370Z",
+    "fullReport": true,
+    "displayName": "Swarnika Mishra",
+    "contact": "swarnikamishra61@gmail.com"
+  },
+  "responses": [
+    {
+      "resource": {
+        "crn": "crn:v1:bluemix:public:cloud-object-storage:global:a/b406a884dc2f4710aa43a163c93eb992:4a0791b7-8e7e-4e5f-8be4-99f68cda4f63::",
+        "displayName": "Cloud Object Storage-ai",
+        "serviceName": "cloud-object-storage",
+        "resourceGroupId": "0c6675622d1c45aab1270870b1df0d5e",
+        "resourceGroupName": "Default"
+      },
+      "access": [
+        {
+          "subject": {
+            "serviceId": {
+              "id": "iam-ServiceId-fa127b4a-525d-4587-b275-79fafcafb3b6",
+              "displayName": "WDP-Project-Management-4a0791b7-8e7e-4e5f-8be4-99f68cda4f63-2025-08-08T10:59:46.658Z"
+            }
+          },
+          "roleActions": [
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+              },
+              "actions": [
+                {
+                  "action": "cloud-object-storage.bucket.get_versions"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_protection"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_metrics_monitoring"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_tagging_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_acl_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.sync"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_activity_tracking"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_object_lock_retention_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_object_lock_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.object.get"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_acl"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_get_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_lifecycle"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.post_backup_vault"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.put_activity_tracking"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_recovery_range"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_crk_id"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_versioning"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_replication"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_extend_retention"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_cors"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_fasp_connection_info"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_object_lock_retention"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_uploads"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_object_lock_configuration"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_replication"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_restore"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_public_access_block"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_versioning"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_acl"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_backup_policies"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.post_restore"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_quota"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_uploads"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_replication"
+                },
+                {
+                  "action": "cloud-object-storage.object.head_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_backup_policy"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.list_restores"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.put_retention"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.restore_sync"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part_get"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_acl"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_website"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_object_lock_legal_hold_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_firewall"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_location"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_initiate_upload"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_protection_management"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_upload"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.head"
+                },
+                {
+                  "action": "cloud-object-storage.account.list_account_backup_vaults"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_backup_policy"
+                },
+                {
+                  "action": "cloud-object-storage.account.get_account_buckets"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_retention"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_bucket"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_lifecycle"
+                },
+                {
+                  "action": "cloud-object-storage.object.restore_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_bucket_crn"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.delete_backup_vault"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_firewall"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_acl_version"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_metrics_monitoring"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.list_recovery_ranges"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_metrics_monitoring"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_md"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_tagging"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_protection_management"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_object_lock_configuration"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_basic"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_crk_id"
+                },
+                {
+                  "action": "cloud-object-storage.object.head"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_quota"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_tagging"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_website"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.post_bucket"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_legal_hold_version"
+                },
+                {
+                  "action": "cloud-object-storage.account.delete_fasp_connection_info"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_multi_delete"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_cors"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_activity_tracking"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_get"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part_get_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_website"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_basic"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_version"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.put_metrics_monitoring"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_protection"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_public_access_block"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_cors"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_activity_tracking"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_acl"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_tagging_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_public_access_block"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_bucket"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_retention_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.post"
+                },
+                {
+                  "action": "cloud-object-storage.object.put"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_complete_upload"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_tagging"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_part"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.post_backup_policy"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_tagging_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.restore"
+                }
+              ],
+              "policyIds": [
+                "http://iam-ui/serviceids/ServiceId-fa127b4a-525d-4587-b275-79fafcafb3b6/policies/c26084ff-ede8-42bd-8b20-63bb8c5f7eb0"
+              ]
+            }
+          ],
+          "platformExtensions": {
+            "roleActions": [
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+                },
+                "actions": [
+                  {
+                    "action": "global-search-tagging.resource.read"
+                  },
+                  {
+                    "action": "iam.policy.read"
+                  },
+                  {
+                    "action": "cbr.rule.read"
+                  }
+                ],
+                "policyIds": [
+                  "http://iam-ui/serviceids/ServiceId-fa127b4a-525d-4587-b275-79fafcafb3b6/policies/c26084ff-ede8-42bd-8b20-63bb8c5f7eb0"
+                ]
+              },
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::role:Administrator"
+                },
+                "actions": [
+                  {
+                    "action": "resource-controller.key.delete"
+                  },
+                  {
+                    "action": "cbr.rule.update"
+                  },
+                  {
+                    "action": "global-search-tagging.resource.read"
+                  },
+                  {
+                    "action": "iam.policy.update"
+                  },
+                  {
+                    "action": "resource-controller.instance.create"
+                  },
+                  {
+                    "action": "resource-controller.key.retrieve"
+                  },
+                  {
+                    "action": "iam.role.read"
+                  },
+                  {
+                    "action": "resource-controller.alias.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.group.retrieve"
+                  },
+                  {
+                    "action": "cbr.rule.delete"
+                  },
+                  {
+                    "action": "iam.policy.create"
+                  },
+                  {
+                    "action": "resource-controller.key.update"
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.quota.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.broker.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.key.create"
+                  },
+                  {
+                    "action": "resource-controller.subscription.retrieve"
+                  },
+                  {
+                    "action": "cbr.rule.create"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.attach-user-tag"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.attach-access-tag"
+                  },
+                  {
+                    "action": "iam.delegationPolicy.create"
+                  },
+                  {
+                    "action": "resource-controller.alias.create"
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve_history"
+                  },
+                  {
+                    "action": "iam.policy.delete"
+                  },
+                  {
+                    "action": "iam.service.read"
+                  },
+                  {
+                    "action": "cbr.rule.read"
+                  },
+                  {
+                    "action": "iam.role.assign"
+                  },
+                  {
+                    "action": "resource-controller.group.update"
+                  },
+                  {
+                    "action": "resource-controller.group.delete"
+                  },
+                  {
+                    "action": "resource-controller.credential.retrieve_all"
+                  },
+                  {
+                    "action": "resource-controller.instance.update_onetime_credentials_off"
+                  },
+                  {
+                    "action": "resource-controller.alias.delete"
+                  },
+                  {
+                    "action": "iam.policy.read"
+                  },
+                  {
+                    "action": "resource-controller.broker.update"
+                  },
+                  {
+                    "action": "resource-controller.broker.delete"
+                  },
+                  {
+                    "action": "resource-controller.binding.update"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.detach-user-tag"
+                  },
+                  {
+                    "action": "resource-controller.binding.create"
+                  },
+                  {
+                    "action": "resource-controller.instance.update"
+                  },
+                  {
+                    "action": "resource-controller.alias.update"
+                  },
+                  {
+                    "action": "resource-controller.group.create"
+                  },
+                  {
+                    "action": "resource-controller.binding.delete"
+                  },
+                  {
+                    "action": "resource-controller.binding.retrieve"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.detach-access-tag"
+                  },
+                  {
+                    "action": "resource-controller.broker.create"
+                  },
+                  {
+                    "action": "resource-controller.instance.update_plan"
+                  },
+                  {
+                    "action": "iam.delegationPolicy.update"
+                  },
+                  {
+                    "action": "resource-controller.instance.delete"
+                  }
+                ],
+                "policyIds": [
+                  "http://iam-ui/serviceids/ServiceId-fa127b4a-525d-4587-b275-79fafcafb3b6/policies/c26084ff-ede8-42bd-8b20-63bb8c5f7eb0"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "subject": {
+            "serviceId": {
+              "id": "iam-ServiceId-dc70eee6-29f9-4b7d-a875-378a04a00966",
+              "displayName": "viewer-e690bf07-be72-454e-b01d-a4cc0cb219d2"
+            }
+          },
+          "roleActions": [
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::serviceRole:Reader"
+              },
+              "actions": [
+                {
+                  "action": "cloud-object-storage.bucket.get_fasp_connection_info"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_location"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_uploads"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.head"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_versions"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_cors"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_replication"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_backup_policy"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_get"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part_get_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_backup_policies"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_website"
+                },
+                {
+                  "action": "cloud-object-storage.account.get_account_buckets"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_retention"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_uploads"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_lifecycle"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_protection"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_activity_tracking"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_bucket_crn"
+                },
+                {
+                  "action": "cloud-object-storage.object.head_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_tagging_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.get"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_metrics_monitoring"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_get_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_tagging"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_retention_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_object_lock_configuration"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_basic"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.object.head"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_versioning"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part_get"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_legal_hold_version"
+                }
+              ],
+              "policyIds": [
+                "http://iam-ui/serviceids/ServiceId-dc70eee6-29f9-4b7d-a875-378a04a00966/policies/2b8e2138-ad20-49da-a9ab-406f13906ff0"
+              ]
+            }
+          ],
+          "platformExtensions": {
+            "roleActions": [
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::serviceRole:Reader"
+                },
+                "actions": [
+                  {
+                    "action": "global-search-tagging.resource.read"
+                  },
+                  {
+                    "action": "iam.policy.read"
+                  },
+                  {
+                    "action": "cbr.rule.read"
+                  }
+                ],
+                "policyIds": [
+                  "http://iam-ui/serviceids/ServiceId-dc70eee6-29f9-4b7d-a875-378a04a00966/policies/2b8e2138-ad20-49da-a9ab-406f13906ff0"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "subject": {
+            "serviceId": {
+              "id": "iam-ServiceId-07cb5bc8-35ce-4853-8c32-61777f977445",
+              "displayName": "editor-e690bf07-be72-454e-b01d-a4cc0cb219d2"
+            }
+          },
+          "roleActions": [
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer"
+              },
+              "actions": [
+                {
+                  "action": "cloud-object-storage.bucket.get_location"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_initiate_upload"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_upload"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.head"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_versions"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_backup_policy"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_metrics_monitoring"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_tagging_version"
+                },
+                {
+                  "action": "cloud-object-storage.account.get_account_buckets"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_retention"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_bucket"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_lifecycle"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_activity_tracking"
+                },
+                {
+                  "action": "cloud-object-storage.object.restore_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_bucket_crn"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_object_lock_retention_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_object_lock_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.object.get"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_metrics_monitoring"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_get_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_md"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_tagging"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_lifecycle"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_object_lock_configuration"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_basic"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_crk_id"
+                },
+                {
+                  "action": "cloud-object-storage.object.head"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_versioning"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_replication"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_tagging"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_website"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.post_bucket"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_legal_hold_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_extend_retention"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_cors"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_fasp_connection_info"
+                },
+                {
+                  "action": "cloud-object-storage.account.delete_fasp_connection_info"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_multi_delete"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_object_lock_retention"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_uploads"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_cors"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_object_lock_configuration"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_replication"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_get"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_versioning"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part_get_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_backup_policies"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_website"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_quota"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_uploads"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_protection"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_cors"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_activity_tracking"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_replication"
+                },
+                {
+                  "action": "cloud-object-storage.object.head_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_tagging_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_backup_policy"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_bucket"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_retention_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.post"
+                },
+                {
+                  "action": "cloud-object-storage.object.put"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_complete_upload"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_tagging"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.restore_sync"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_part"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.post_backup_policy"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part_get"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_tagging_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_website"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_object_lock_legal_hold_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.restore"
+                }
+              ],
+              "policyIds": [
+                "http://iam-ui/serviceids/ServiceId-07cb5bc8-35ce-4853-8c32-61777f977445/policies/0d6ab8f9-e07a-44ab-8e3b-36d6cace7acd"
+              ]
+            }
+          ],
+          "platformExtensions": {
+            "roleActions": [
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer"
+                },
+                "actions": [
+                  {
+                    "action": "global-search-tagging.resource.read"
+                  },
+                  {
+                    "action": "iam.policy.read"
+                  },
+                  {
+                    "action": "cbr.rule.read"
+                  }
+                ],
+                "policyIds": [
+                  "http://iam-ui/serviceids/ServiceId-07cb5bc8-35ce-4853-8c32-61777f977445/policies/0d6ab8f9-e07a-44ab-8e3b-36d6cace7acd"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "subject": {
+            "serviceId": {
+              "id": "iam-ServiceId-e096ef5d-a6ee-44cf-b4f0-9abdb8f7b2fa",
+              "displayName": "admin-e690bf07-be72-454e-b01d-a4cc0cb219d2"
+            }
+          },
+          "roleActions": [
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+              },
+              "actions": [
+                {
+                  "action": "cloud-object-storage.bucket.get_versions"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_protection"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_metrics_monitoring"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_tagging_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_acl_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.sync"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_activity_tracking"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_object_lock_retention_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_object_lock_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.object.get"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_acl"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_get_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_lifecycle"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.post_backup_vault"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.put_activity_tracking"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_recovery_range"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_crk_id"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_versioning"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_replication"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_extend_retention"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_cors"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_fasp_connection_info"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_object_lock_retention"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_uploads"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_object_lock_configuration"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_replication"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_restore"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_public_access_block"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_versioning"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_acl"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_backup_policies"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.post_restore"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_quota"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_uploads"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_replication"
+                },
+                {
+                  "action": "cloud-object-storage.object.head_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_backup_policy"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.list_restores"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.put_retention"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.restore_sync"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part_get"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_acl"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_website"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_object_lock_legal_hold_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_firewall"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_location"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_initiate_upload"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_protection_management"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_upload"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.head"
+                },
+                {
+                  "action": "cloud-object-storage.account.list_account_backup_vaults"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_backup_policy"
+                },
+                {
+                  "action": "cloud-object-storage.account.get_account_buckets"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_retention"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_bucket"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_lifecycle"
+                },
+                {
+                  "action": "cloud-object-storage.object.restore_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_bucket_crn"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.delete_backup_vault"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_firewall"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_acl_version"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_metrics_monitoring"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.list_recovery_ranges"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_metrics_monitoring"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_md"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_tagging"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_protection_management"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_object_lock_configuration"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_basic"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_crk_id"
+                },
+                {
+                  "action": "cloud-object-storage.object.head"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_quota"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_tagging"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_website"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.post_bucket"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_legal_hold_version"
+                },
+                {
+                  "action": "cloud-object-storage.account.delete_fasp_connection_info"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_multi_delete"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_cors"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_activity_tracking"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_get"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part_get_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_website"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_basic"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_version"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.put_metrics_monitoring"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_protection"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_public_access_block"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_cors"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_activity_tracking"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_acl"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_tagging_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_public_access_block"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_bucket"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_retention_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.post"
+                },
+                {
+                  "action": "cloud-object-storage.object.put"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_complete_upload"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_tagging"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_part"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.post_backup_policy"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_tagging_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.restore"
+                }
+              ],
+              "policyIds": [
+                "http://iam-ui/serviceids/ServiceId-e096ef5d-a6ee-44cf-b4f0-9abdb8f7b2fa/policies/2f63d040-7955-4258-a8e9-1b12c72f10fd"
+              ]
+            }
+          ],
+          "platformExtensions": {
+            "roleActions": [
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+                },
+                "actions": [
+                  {
+                    "action": "global-search-tagging.resource.read"
+                  },
+                  {
+                    "action": "iam.policy.read"
+                  },
+                  {
+                    "action": "cbr.rule.read"
+                  }
+                ],
+                "policyIds": [
+                  "http://iam-ui/serviceids/ServiceId-e096ef5d-a6ee-44cf-b4f0-9abdb8f7b2fa/policies/2f63d040-7955-4258-a8e9-1b12c72f10fd"
+                ]
+              },
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::role:Administrator"
+                },
+                "actions": [
+                  {
+                    "action": "resource-controller.key.delete"
+                  },
+                  {
+                    "action": "cbr.rule.update"
+                  },
+                  {
+                    "action": "global-search-tagging.resource.read"
+                  },
+                  {
+                    "action": "iam.policy.update"
+                  },
+                  {
+                    "action": "resource-controller.instance.create"
+                  },
+                  {
+                    "action": "resource-controller.key.retrieve"
+                  },
+                  {
+                    "action": "iam.role.read"
+                  },
+                  {
+                    "action": "resource-controller.alias.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.group.retrieve"
+                  },
+                  {
+                    "action": "cbr.rule.delete"
+                  },
+                  {
+                    "action": "iam.policy.create"
+                  },
+                  {
+                    "action": "resource-controller.key.update"
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.quota.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.broker.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.key.create"
+                  },
+                  {
+                    "action": "resource-controller.subscription.retrieve"
+                  },
+                  {
+                    "action": "cbr.rule.create"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.attach-user-tag"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.attach-access-tag"
+                  },
+                  {
+                    "action": "iam.delegationPolicy.create"
+                  },
+                  {
+                    "action": "resource-controller.alias.create"
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve_history"
+                  },
+                  {
+                    "action": "iam.policy.delete"
+                  },
+                  {
+                    "action": "iam.service.read"
+                  },
+                  {
+                    "action": "cbr.rule.read"
+                  },
+                  {
+                    "action": "iam.role.assign"
+                  },
+                  {
+                    "action": "resource-controller.group.update"
+                  },
+                  {
+                    "action": "resource-controller.group.delete"
+                  },
+                  {
+                    "action": "resource-controller.credential.retrieve_all"
+                  },
+                  {
+                    "action": "resource-controller.instance.update_onetime_credentials_off"
+                  },
+                  {
+                    "action": "resource-controller.alias.delete"
+                  },
+                  {
+                    "action": "iam.policy.read"
+                  },
+                  {
+                    "action": "resource-controller.broker.update"
+                  },
+                  {
+                    "action": "resource-controller.broker.delete"
+                  },
+                  {
+                    "action": "resource-controller.binding.update"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.detach-user-tag"
+                  },
+                  {
+                    "action": "resource-controller.binding.create"
+                  },
+                  {
+                    "action": "resource-controller.instance.update"
+                  },
+                  {
+                    "action": "resource-controller.alias.update"
+                  },
+                  {
+                    "action": "resource-controller.group.create"
+                  },
+                  {
+                    "action": "resource-controller.binding.delete"
+                  },
+                  {
+                    "action": "resource-controller.binding.retrieve"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.detach-access-tag"
+                  },
+                  {
+                    "action": "resource-controller.broker.create"
+                  },
+                  {
+                    "action": "resource-controller.instance.update_plan"
+                  },
+                  {
+                    "action": "iam.delegationPolicy.update"
+                  },
+                  {
+                    "action": "resource-controller.instance.delete"
+                  }
+                ],
+                "policyIds": [
+                  "http://iam-ui/serviceids/ServiceId-e096ef5d-a6ee-44cf-b4f0-9abdb8f7b2fa/policies/2f63d040-7955-4258-a8e9-1b12c72f10fd"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "subject": {
+            "user": {
+              "id": "IBMid-69600111RP",
+              "displayName": "Swarnika Mishra",
+              "contact": "swarnikamishra61@gmail.com"
+            }
+          },
+          "roleActions": [
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+              },
+              "actions": [
+                {
+                  "action": "cloud-object-storage.bucket.get_versions"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_protection"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_metrics_monitoring"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_tagging_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_acl_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.sync"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_activity_tracking"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_object_lock_retention_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_object_lock_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.object.get"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_acl"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_get_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_lifecycle"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.post_backup_vault"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.put_activity_tracking"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_recovery_range"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_crk_id"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_versioning"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_replication"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_extend_retention"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_cors"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_fasp_connection_info"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_object_lock_retention"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_uploads"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_object_lock_configuration"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_replication"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_restore"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_public_access_block"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_versioning"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_acl"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_backup_policies"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.post_restore"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_quota"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_uploads"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_replication"
+                },
+                {
+                  "action": "cloud-object-storage.object.head_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_backup_policy"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.list_restores"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.put_retention"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.restore_sync"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part_get"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_acl"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_website"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_object_lock_legal_hold_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_firewall"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_location"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_initiate_upload"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_protection_management"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_upload"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.head"
+                },
+                {
+                  "action": "cloud-object-storage.account.list_account_backup_vaults"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_backup_policy"
+                },
+                {
+                  "action": "cloud-object-storage.account.get_account_buckets"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_retention"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_bucket"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_lifecycle"
+                },
+                {
+                  "action": "cloud-object-storage.object.restore_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.list_bucket_crn"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.delete_backup_vault"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_firewall"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_acl_version"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_metrics_monitoring"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.list_recovery_ranges"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_metrics_monitoring"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_md"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_tagging"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_protection_management"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_object_lock_configuration"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_basic"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_crk_id"
+                },
+                {
+                  "action": "cloud-object-storage.object.head"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_quota"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_tagging"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_website"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.post_bucket"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_legal_hold_version"
+                },
+                {
+                  "action": "cloud-object-storage.account.delete_fasp_connection_info"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_multi_delete"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_cors"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_legal_hold"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_activity_tracking"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_get"
+                },
+                {
+                  "action": "cloud-object-storage.object.copy_part_get_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_website"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.get_basic"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_version"
+                },
+                {
+                  "action": "cloud-object-storage.backup-vault.put_metrics_monitoring"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_protection"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_public_access_block"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_cors"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_activity_tracking"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.get_acl"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_tagging_version"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.delete_public_access_block"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.put_bucket"
+                },
+                {
+                  "action": "cloud-object-storage.object.get_object_lock_retention_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.post"
+                },
+                {
+                  "action": "cloud-object-storage.object.put"
+                },
+                {
+                  "action": "cloud-object-storage.object.post_complete_upload"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_tagging"
+                },
+                {
+                  "action": "cloud-object-storage.object.put_part"
+                },
+                {
+                  "action": "cloud-object-storage.bucket.post_backup_policy"
+                },
+                {
+                  "action": "cloud-object-storage.object.delete_tagging_version"
+                },
+                {
+                  "action": "cloud-object-storage.object.restore"
+                }
+              ],
+              "policyIds": [
+                "http://iam-ui/users/IBMid-69600111RP/policies/ddbf0cf2-dcb6-4e40-9c0a-2bc0b7b0c8c2"
+              ]
+            }
+          ],
+          "platformExtensions": {
+            "roleActions": [
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+                },
+                "actions": [
+                  {
+                    "action": "global-search-tagging.resource.read"
+                  },
+                  {
+                    "action": "iam.policy.read"
+                  },
+                  {
+                    "action": "cbr.rule.read"
+                  }
+                ],
+                "policyIds": [
+                  "http://iam-ui/users/IBMid-69600111RP/policies/ddbf0cf2-dcb6-4e40-9c0a-2bc0b7b0c8c2"
+                ]
+              },
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::role:Administrator"
+                },
+                "actions": [
+                  {
+                    "action": "resource-controller.key.delete"
+                  },
+                  {
+                    "action": "cbr.rule.update"
+                  },
+                  {
+                    "action": "global-search-tagging.resource.read"
+                  },
+                  {
+                    "action": "iam.policy.update"
+                  },
+                  {
+                    "action": "resource-controller.instance.create"
+                  },
+                  {
+                    "action": "resource-controller.key.retrieve"
+                  },
+                  {
+                    "action": "iam.role.read"
+                  },
+                  {
+                    "action": "resource-controller.alias.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.group.retrieve"
+                  },
+                  {
+                    "action": "cbr.rule.delete"
+                  },
+                  {
+                    "action": "iam.policy.create"
+                  },
+                  {
+                    "action": "resource-controller.key.update"
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.quota.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.broker.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.key.create"
+                  },
+                  {
+                    "action": "resource-controller.subscription.retrieve"
+                  },
+                  {
+                    "action": "cbr.rule.create"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.attach-user-tag"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.attach-access-tag"
+                  },
+                  {
+                    "action": "iam.delegationPolicy.create"
+                  },
+                  {
+                    "action": "resource-controller.alias.create"
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve_history"
+                  },
+                  {
+                    "action": "iam.policy.delete"
+                  },
+                  {
+                    "action": "iam.service.read"
+                  },
+                  {
+                    "action": "cbr.rule.read"
+                  },
+                  {
+                    "action": "iam.role.assign"
+                  },
+                  {
+                    "action": "resource-controller.group.update"
+                  },
+                  {
+                    "action": "resource-controller.group.delete"
+                  },
+                  {
+                    "action": "resource-controller.credential.retrieve_all"
+                  },
+                  {
+                    "action": "resource-controller.instance.update_onetime_credentials_off"
+                  },
+                  {
+                    "action": "resource-controller.alias.delete"
+                  },
+                  {
+                    "action": "iam.policy.read"
+                  },
+                  {
+                    "action": "resource-controller.broker.update"
+                  },
+                  {
+                    "action": "resource-controller.broker.delete"
+                  },
+                  {
+                    "action": "resource-controller.binding.update"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.detach-user-tag"
+                  },
+                  {
+                    "action": "resource-controller.binding.create"
+                  },
+                  {
+                    "action": "resource-controller.instance.update"
+                  },
+                  {
+                    "action": "resource-controller.alias.update"
+                  },
+                  {
+                    "action": "resource-controller.group.create"
+                  },
+                  {
+                    "action": "resource-controller.binding.delete"
+                  },
+                  {
+                    "action": "resource-controller.binding.retrieve"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.detach-access-tag"
+                  },
+                  {
+                    "action": "resource-controller.broker.create"
+                  },
+                  {
+                    "action": "resource-controller.instance.update_plan"
+                  },
+                  {
+                    "action": "iam.delegationPolicy.update"
+                  },
+                  {
+                    "action": "resource-controller.instance.delete"
+                  }
+                ],
+                "policyIds": [
+                  "http://iam-ui/users/IBMid-69600111RP/policies/ddbf0cf2-dcb6-4e40-9c0a-2bc0b7b0c8c2"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

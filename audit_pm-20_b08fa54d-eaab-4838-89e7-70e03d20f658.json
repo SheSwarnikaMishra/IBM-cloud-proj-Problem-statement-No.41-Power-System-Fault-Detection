@@ -1,0 +1,238 @@
+{
+  "report": {
+    "docType": "iam.identity-access-map",
+    "version": "1.0.0",
+    "createdById": "IBMid-69600111RP",
+    "date": "2025-08-08T12:38:12.264Z",
+    "fullReport": true,
+    "displayName": "Swarnika Mishra",
+    "contact": "swarnikamishra61@gmail.com"
+  },
+  "responses": [
+    {
+      "resource": {
+        "crn": "crn:v1:bluemix:public:pm-20:eu-gb:a/b406a884dc2f4710aa43a163c93eb992:b08fa54d-eaab-4838-89e7-70e03d20f658::",
+        "displayName": "watsonx.ai Runtime-zc",
+        "serviceName": "pm-20",
+        "resourceGroupId": "0c6675622d1c45aab1270870b1df0d5e",
+        "resourceGroupName": "Default"
+      },
+      "access": [
+        {
+          "subject": {
+            "user": {
+              "id": "IBMid-69600111RP",
+              "displayName": "Swarnika Mishra",
+              "contact": "swarnikamishra61@gmail.com"
+            }
+          },
+          "roleActions": [
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+              },
+              "actions": [
+                {
+                  "action": "pm-20.instances.write"
+                }
+              ],
+              "policyIds": [
+                "http://iam-ui/users/IBMid-69600111RP/policies/ddbf0cf2-dcb6-4e40-9c0a-2bc0b7b0c8c2"
+              ]
+            },
+            {
+              "role": {
+                "crn": "crn:v1:bluemix:public:iam::::role:Administrator"
+              },
+              "actions": [
+                {
+                  "action": "pm-20.instances.admin"
+                }
+              ],
+              "policyIds": [
+                "http://iam-ui/users/IBMid-69600111RP/policies/ddbf0cf2-dcb6-4e40-9c0a-2bc0b7b0c8c2"
+              ]
+            }
+          ],
+          "platformExtensions": {
+            "roleActions": [
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+                },
+                "actions": [
+                  {
+                    "action": "global-search-tagging.resource.read"
+                  },
+                  {
+                    "action": "iam.policy.read"
+                  },
+                  {
+                    "action": "cbr.rule.read"
+                  }
+                ],
+                "policyIds": [
+                  "http://iam-ui/users/IBMid-69600111RP/policies/ddbf0cf2-dcb6-4e40-9c0a-2bc0b7b0c8c2"
+                ]
+              },
+              {
+                "role": {
+                  "crn": "crn:v1:bluemix:public:iam::::role:Administrator"
+                },
+                "actions": [
+                  {
+                    "action": "resource-controller.key.delete"
+                  },
+                  {
+                    "action": "cbr.rule.update"
+                  },
+                  {
+                    "action": "global-search-tagging.resource.read"
+                  },
+                  {
+                    "action": "iam.policy.update"
+                  },
+                  {
+                    "action": "resource-controller.instance.create"
+                  },
+                  {
+                    "action": "resource-controller.key.retrieve"
+                  },
+                  {
+                    "action": "iam.role.read"
+                  },
+                  {
+                    "action": "resource-controller.alias.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.group.retrieve"
+                  },
+                  {
+                    "action": "cbr.rule.delete"
+                  },
+                  {
+                    "action": "iam.policy.create"
+                  },
+                  {
+                    "action": "resource-controller.key.update"
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.quota.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.broker.retrieve"
+                  },
+                  {
+                    "action": "resource-controller.key.create"
+                  },
+                  {
+                    "action": "resource-controller.subscription.retrieve"
+                  },
+                  {
+                    "action": "cbr.rule.create"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.attach-user-tag"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.attach-access-tag"
+                  },
+                  {
+                    "action": "iam.delegationPolicy.create"
+                  },
+                  {
+                    "action": "resource-controller.alias.create"
+                  },
+                  {
+                    "action": "resource-controller.instance.retrieve_history"
+                  },
+                  {
+                    "action": "iam.policy.delete"
+                  },
+                  {
+                    "action": "iam.service.read"
+                  },
+                  {
+                    "action": "cbr.rule.read"
+                  },
+                  {
+                    "action": "iam.role.assign"
+                  },
+                  {
+                    "action": "resource-controller.group.update"
+                  },
+                  {
+                    "action": "resource-controller.group.delete"
+                  },
+                  {
+                    "action": "resource-controller.credential.retrieve_all"
+                  },
+                  {
+                    "action": "resource-controller.instance.update_onetime_credentials_off"
+                  },
+                  {
+                    "action": "resource-controller.alias.delete"
+                  },
+                  {
+                    "action": "iam.policy.read"
+                  },
+                  {
+                    "action": "resource-controller.broker.update"
+                  },
+                  {
+                    "action": "resource-controller.broker.delete"
+                  },
+                  {
+                    "action": "resource-controller.binding.update"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.detach-user-tag"
+                  },
+                  {
+                    "action": "resource-controller.binding.create"
+                  },
+                  {
+                    "action": "resource-controller.instance.update"
+                  },
+                  {
+                    "action": "resource-controller.alias.update"
+                  },
+                  {
+                    "action": "resource-controller.group.create"
+                  },
+                  {
+                    "action": "resource-controller.binding.delete"
+                  },
+                  {
+                    "action": "resource-controller.binding.retrieve"
+                  },
+                  {
+                    "action": "global-search-tagging.tag.detach-access-tag"
+                  },
+                  {
+                    "action": "resource-controller.broker.create"
+                  },
+                  {
+                    "action": "resource-controller.instance.update_plan"
+                  },
+                  {
+                    "action": "iam.delegationPolicy.update"
+                  },
+                  {
+                    "action": "resource-controller.instance.delete"
+                  }
+                ],
+                "policyIds": [
+                  "http://iam-ui/users/IBMid-69600111RP/policies/ddbf0cf2-dcb6-4e40-9c0a-2bc0b7b0c8c2"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
